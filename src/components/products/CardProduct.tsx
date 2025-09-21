@@ -19,15 +19,12 @@ export const CardProduct = ({
     name,
     price,
     slug,
-    colors,
+    colors = [],
     variants,
 }: Props) => {
 
 
-const [activeColor, setActiveColor] = useState<{
-    name:string;
-    color:string;
-}>(colors[0]);
+const [activeColor, setActiveColor] = useState<{name:string; color:string;}>(colors&& colors.length > 0 ? colors[0] : {name: '', color: ''});
 
 //Identificar la variante seleccionada segun el color activo
 const selectedVariant = variants.find(

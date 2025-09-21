@@ -141,7 +141,7 @@ export const products = [
 	},
 ];
 
-export const recentCelulares = [
+export const recentProducts = [
 	{
 		brand: 'Samsung',
 		colors: [{ color: '#000000', color_name: 'Negro' }],
@@ -284,7 +284,7 @@ export const recentCelulares = [
 	},
 ];
 
-export const popularCelulares = [
+export const popularProducts = [
 	{
 		brand: 'Huawei',
 		colors: [{ color: '#800080', color_name: 'Púrpura' }],
