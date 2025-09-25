@@ -28,7 +28,7 @@ console.log(preparedRecentProducts);
                     title="Nuevos productos"
                     products={preparedRecentProducts}
         />
-    )}
+    )};
 
     {isLoading ? (
             <ProductGridSkeleton numberOfProducts={4}/>
@@ -37,7 +37,7 @@ console.log(preparedRecentProducts);
                     title="Productos destacados"
                     products={preparedPopularProducts}
         />
-    )}
+    )};
 
 
 <Brands />

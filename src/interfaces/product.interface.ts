@@ -39,7 +39,7 @@ export interface PreparedProducts {
     images: string[];
     created_at: string;
     price: number;
-    colors: {
+    colors?: {
         name: string;
         color: string;
     }[];
