@@ -51,7 +51,7 @@ export const ProductsPage = () => {
                         key={product.id}
                         name = {product.name}
                         price={product.price}
-                        colors={product.colors}
+                        colors={product.color}
                         img = {product.images[0]}
                         slug = {product.slug}
                         variants = {product.variants}
