@@ -5,6 +5,10 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-      server: {
-      port: 3000,}
+  server: {
+    port: 3000,
+  },
+  preview: {
+    allowedHosts: ['ecommerce-vistalago-web.onrender.com']
+  }
 })
